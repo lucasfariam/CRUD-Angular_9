@@ -10,7 +10,6 @@ Criar uma Aplicação de Cadastro (CRUD) com Criação, Leitura, Atualização e
 
 Usando os principais conceitos do Angular 9: Componentes, Diretivas, Pipes, Services e muito mais
 
-Aprender Angular na Prática de forma muito objetiva
 
 1°- No BACKEND 
 --> Usei o npm i json-server para instalar a dependência do JSON-SERVER
