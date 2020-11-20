@@ -1,3 +1,4 @@
+import { HeaderService } from './../../components/template/header/header.service';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router'
 // importando a rota ^
@@ -10,7 +11,14 @@ import { Router } from '@angular/router'
 export class ProductCrudComponent implements OnInit {
 
   // criando rota para o botão
-  constructor(private router: Router) { }
+  constructor(private router: Router,
+    private headerService: HeaderService) { // traz o nome no header da pagina que você esta navegando
+      headerService.headerData = {
+        title: 'Cadastro de Produto', // titulo da pagina
+        icon: 'storefront', // icone
+        routeUrl: '/products' // pagina de produtos URL
+    }
+   }
 
   ngOnInit(): void {
   }

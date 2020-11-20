@@ -23,7 +23,9 @@ body {
     color: #ffff;
 }
 
-msg-error {
-    background-color: ;
+.msg-error {
+    background-color: #e35e6b;
     color: #ffff;
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
